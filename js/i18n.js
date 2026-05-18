@@ -3,7 +3,7 @@
  */
 const I18n = (() => {
   const STORAGE_KEY = "china-tour-lang";
-  const DEFAULT_LANG = "zh";
+  const DEFAULT_LANG = "en";
   const SUPPORTED = ["zh", "en", "ja", "ko"];
 
   let currentLang = DEFAULT_LANG;
@@ -98,9 +98,7 @@ const I18n = (() => {
 
   async function init() {
     const saved = localStorage.getItem(STORAGE_KEY);
-    const browserLang = navigator.language?.slice(0, 2);
-    let lang =
-      saved || (SUPPORTED.includes(browserLang) ? browserLang : DEFAULT_LANG);
+    let lang = saved || DEFAULT_LANG;
     await setLanguage(lang);
 
     const select = document.getElementById("lang-select");
