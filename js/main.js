@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   document
-    .querySelectorAll(".city-card, .tip-card, .section-header, .detail-card, .info-box")
+    .querySelectorAll(".city-card, .tip-card, .section-header, .detail-card, .detail-card--attraction, .info-box")
     .forEach((el) => {
       el.classList.add("fade-in");
       observer.observe(el);

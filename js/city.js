@@ -1,21 +1,42 @@
 const CityPage = (() => {
   const CITIES = ["beijing", "shanghai", "xian", "chengdu", "guilin", "hangzhou"];
 
+  function escapeHtml(text) {
+    const el = document.createElement("div");
+    el.textContent = text;
+    return el.innerHTML;
+  }
+
   function getData(translations, city) {
     return translations?.cityDetail?.[city];
   }
 
-  function renderAttractions(data) {
+  function getAttractionImage(translations, city, attraction, index) {
+    if (attraction.image) return attraction.image;
+    const images = translations?.attractionImages?.[city];
+    return images?.[index] || "";
+  }
+
+  function renderAttractions(data, city) {
     const container = document.getElementById("attractions-list");
     if (!container || !data?.attractions) return;
+    const translations = I18n.getTranslations();
+
     container.innerHTML = data.attractions
-      .map(
-        (a) => `
-      <article class="detail-card">
-        <h3>${a.name}</h3>
-        <p>${a.desc}</p>
-      </article>`
-      )
+      .map((a, index) => {
+        const img = getAttractionImage(translations, city, a, index);
+        const imageHtml = img
+          ? `<div class="detail-card-image"><img src="${img}" alt="${escapeHtml(a.name)}" loading="lazy"></div>`
+          : "";
+        return `
+      <article class="detail-card detail-card--attraction">
+        ${imageHtml}
+        <div class="detail-card-body">
+          <h3>${escapeHtml(a.name)}</h3>
+          <p>${escapeHtml(a.desc)}</p>
+        </div>
+      </article>`;
+      })
       .join("");
   }
 
@@ -26,8 +47,10 @@ const CityPage = (() => {
       .map(
         (f) => `
       <article class="detail-card detail-card--food">
-        <h3>${f.name}</h3>
-        <p>${f.desc}</p>
+        <div class="detail-card-body">
+          <h3>${escapeHtml(f.name)}</h3>
+          <p>${escapeHtml(f.desc)}</p>
+        </div>
       </article>`
       )
       .join("");
@@ -40,7 +63,7 @@ const CityPage = (() => {
     container.innerHTML = others
       .map((c) => {
         const name = translations?.cities?.[c]?.name || c;
-        return `<a href="${c}.html" class="more-city-link">${name}</a>`;
+        return `<a href="${c}.html" class="more-city-link">${escapeHtml(name)}</a>`;
       })
       .join("");
   }
@@ -53,7 +76,7 @@ const CityPage = (() => {
     const durationEl = document.getElementById("city-duration");
     if (durationEl && data.duration) durationEl.textContent = data.duration;
 
-    renderAttractions(data);
+    renderAttractions(data, city);
     renderFoods(data);
     renderMoreCities(translations, city);
   }

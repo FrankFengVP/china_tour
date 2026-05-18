@@ -1,0 +1,40 @@
+{
+  "attractionImages": {
+    "beijing": [
+      "https://images.unsplash.com/photo-1762785832394-15dee98fce0b?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1743841422310-d940f1dc7e2c?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1669382485231-ef86d9fa986f?w=800&q=85&auto=format&fit=crop"
+    ],
+    "shanghai": [
+      "https://images.unsplash.com/photo-1758087016914-b5404719b14e?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1609088399054-7661a95fe0e2?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1574504500022-de9a6309a501?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602917381237-e46b6c517705?w=800&q=85&auto=format&fit=crop"
+    ],
+    "xian": [
+      "https://images.unsplash.com/photo-1763622480507-4b9be29a172c?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1593433685209-594e48905b95?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1598538982410-c86b30005fb4?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1742689502100-981418fbde01?w=800&q=85&auto=format&fit=crop"
+    ],
+    "chengdu": [
+      "https://images.unsplash.com/photo-1566487097168-e91a4f38bee2?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1765188988816-e73d143fed98?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1695970911153-510493f1e47b?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1725076021478-173130f22f06?w=800&q=85&auto=format&fit=crop"
+    ],
+    "guilin": [
+      "https://images.unsplash.com/photo-1773318901045-38e92a58482d?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773318901194-fd36e69f932d?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549733171-76fb95f99322?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1773318901379-aac92fdf5611?w=800&q=85&auto=format&fit=crop"
+    ],
+    "hangzhou": [
+      "https://images.unsplash.com/photo-1747798678108-ba9a8606d58b?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1556761915-3fd5f6f66407?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1743402814792-ee8f4fcd0aa4?w=800&q=85&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1769532890957-f4384215681d?w=800&q=85&auto=format&fit=crop"
+    ]
+  }
+}
