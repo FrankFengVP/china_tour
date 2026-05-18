@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="发现北京、上海、西安、成都、桂林、杭州等中国最受欢迎的旅游目的地。">
+  <title>探索中国 | 热门旅游城市指南</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">中</span>
+        <span class="logo-text" data-i18n="meta.title">探索中国</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" data-i18n="nav.home">首页</a></li>
+        <li><a href="#cities" data-i18n="nav.cities">热门城市</a></li>
+        <li><a href="#tips" data-i18n="nav.tips">旅行贴士</a></li>
+        <li><a href="#about" data-i18n="nav.about">关于</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switcher">
+          <label for="lang-select" class="sr-only" data-i18n="lang.label">语言</label>
+          <select id="lang-select" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1920&q=85&auto=format&fit=crop" alt="" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <span class="hero-badge" data-i18n="hero.badge">欢迎来到中国</span>
+        <h1 class="hero-title" data-i18n="hero.title">发现千年文明与现代奇迹</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">从长城到外滩，从兵马俑到漓江——探索中国最迷人的城市。</p>
+        <div class="hero-cta">
+          <a href="#cities" class="btn btn-primary" data-i18n="hero.cta">探索城市</a>
+          <a href="#tips" class="btn btn-outline" data-i18n="hero.ctaSecondary">旅行贴士</a>
+        </div>
+      </div>
+      <div class="hero-scroll"><span></span></div>
+    </section>
+
+    <section class="cities section" id="cities">
+      <div class="container">
+        <header class="section-header">
+          <h2 data-i18n="cities.sectionTitle">热门旅游城市</h2>
+          <p data-i18n="cities.sectionSubtitle">六座必访之城，涵盖历史、自然、美食与现代都市风貌</p>
+        </header>
+        <div class="cities-grid">
+          <a href="cities/beijing.html" class="city-card-link">
+          <article class="city-card" data-city="beijing">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=85&auto=format&fit=crop" alt="Beijing" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.beijing.tagline">千年帝都</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.beijing.name">北京</h3>
+              <p data-i18n="cities.beijing.desc">中国的首都，拥有故宫、天坛、颐和园等世界文化遗产。</p>
+              <ul class="city-highlights" data-i18n-list="cities.beijing.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+
+          <a href="cities/shanghai.html" class="city-card-link">
+          <article class="city-card" data-city="shanghai">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1758087016914-b5404719b14e?w=1200&q=85&auto=format&fit=crop" alt="Shanghai" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.shanghai.tagline">东方明珠</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.shanghai.name">上海</h3>
+              <p data-i18n="cities.shanghai.desc">中国最大的经济中心，外滩与陆家嘴隔江相望。</p>
+              <ul class="city-highlights" data-i18n-list="cities.shanghai.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+
+          <a href="cities/xian.html" class="city-card-link">
+          <article class="city-card" data-city="xian">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1763622480507-4b9be29a172c?w=1200&q=85&auto=format&fit=crop" alt="Xi'an" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.xian.tagline">十三朝古都</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.xian.name">西安</h3>
+              <p data-i18n="cities.xian.desc">兵马俑被誉为世界第八大奇迹，古城墙见证千年历史。</p>
+              <ul class="city-highlights" data-i18n-list="cities.xian.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+
+          <a href="cities/chengdu.html" class="city-card-link">
+          <article class="city-card" data-city="chengdu">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1566487097168-e91a4f38bee2?w=1200&q=85&auto=format&fit=crop" alt="Chengdu" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.chengdu.tagline">天府之国</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.chengdu.name">成都</h3>
+              <p data-i18n="cities.chengdu.desc">大熊猫故乡，火锅与川菜让人流连忘返。</p>
+              <ul class="city-highlights" data-i18n-list="cities.chengdu.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+
+          <a href="cities/guilin.html" class="city-card-link">
+          <article class="city-card" data-city="guilin">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1773318901045-38e92a58482d?w=1200&q=85&auto=format&fit=crop" alt="Guilin" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.guilin.tagline">山水甲天下</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.guilin.name">桂林</h3>
+              <p data-i18n="cities.guilin.desc">漓江两岸喀斯特峰林如诗如画，阳朔西街风情万种。</p>
+              <ul class="city-highlights" data-i18n-list="cities.guilin.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+
+          <a href="cities/hangzhou.html" class="city-card-link">
+          <article class="city-card" data-city="hangzhou">
+            <div class="city-card-image">
+              <img src="https://images.unsplash.com/photo-1747798678108-ba9a8606d58b?w=1200&q=85&auto=format&fit=crop" alt="Hangzhou" loading="lazy">
+              <span class="city-card-tag" data-i18n="cities.hangzhou.tagline">人间天堂</span>
+            </div>
+            <div class="city-card-body">
+              <h3 data-i18n="cities.hangzhou.name">杭州</h3>
+              <p data-i18n="cities.hangzhou.desc">西湖十景闻名天下，龙井茶与灵隐寺承载深厚底蕴。</p>
+              <ul class="city-highlights" data-i18n-list="cities.hangzhou.highlights"></ul>
+              <span class="city-card-cta" data-i18n="cities.learnMore">了解更多 →</span>
+            </div>
+          </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tips section" id="tips">
+      <div class="container">
+        <header class="section-header">
+          <h2 data-i18n="tips.sectionTitle">旅行贴士</h2>
+          <p data-i18n="tips.sectionSubtitle">实用信息助您顺利出行</p>
+        </header>
+        <div class="tips-grid">
+          <div class="tip-card">
+            <div class="tip-icon">📋</div>
+            <h3 data-i18n="tips.visa.title">签证政策</h3>
+            <p data-i18n="tips.visa.desc">多数国家公民需提前办理中国签证。</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">💳</div>
+            <h3 data-i18n="tips.payment.title">移动支付</h3>
+            <p data-i18n="tips.payment.desc">微信和支付宝在中国几乎无处不在。</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">🚄</div>
+            <h3 data-i18n="tips.transport.title">高铁出行</h3>
+            <p data-i18n="tips.transport.desc">中国高铁网络发达，连接各大城市。</p>
+          </div>
+          <div class="tip-card">
+            <div class="tip-icon">🌤️</div>
+            <h3 data-i18n="tips.season.title">最佳季节</h3>
+            <p data-i18n="tips.season.desc">春季和秋季气候宜人，适合大多数城市。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-inner">
+        <header class="section-header">
+          <h2 data-i18n="about.sectionTitle">关于本站</h2>
+        </header>
+        <p class="about-desc" data-i18n="about.desc">本站为静态旅游指南，旨在帮助国际游客了解中国最受欢迎的旅游城市。</p>
+        <p class="about-disclaimer" data-i18n="about.disclaimer">图片来源于 Unsplash，仅供展示用途。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p data-i18n="footer.copyright">© 2026 探索中国 · 静态旅游指南</p>
+      <p data-i18n="footer.madeWith">用 ❤️ 为中国旅游而建</p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

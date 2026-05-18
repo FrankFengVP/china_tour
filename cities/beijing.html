@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>北京 | 探索中国</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/city.css">
+</head>
+<body data-city="beijing">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="../index.html" class="logo">
+        <span class="logo-icon">中</span>
+        <span class="logo-text" data-i18n="meta.title">探索中国</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html" data-i18n="nav.home">首页</a></li>
+        <li><a href="../index.html#cities" data-i18n="nav.cities">热门城市</a></li>
+        <li><a href="../index.html#tips" data-i18n="nav.tips">旅行贴士</a></li>
+        <li><a href="../index.html#about" data-i18n="nav.about">关于</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switcher">
+          <label for="lang-select" class="sr-only" data-i18n="lang.label">语言</label>
+          <select id="lang-select" aria-label="Language">
+            <option value="zh">中文</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+          </select>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="city-hero">
+      <div class="city-hero-bg">
+        <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=85&auto=format&fit=crop" alt="Beijing">
+        <div class="city-hero-overlay"></div>
+      </div>
+      <div class="city-hero-content">
+        <a href="../index.html#cities" class="back-link" data-i18n="cityDetail.backHome">返回首页</a>
+        <p class="city-hero-tagline" data-i18n="cities.beijing.tagline">千年帝都 · 文化心脏</p>
+        <h1 class="city-hero-title" data-i18n="cities.beijing.name">北京</h1>
+        <p class="city-hero-duration">
+          <span data-i18n="cityDetail.duration">建议行程</span>：
+          <strong id="city-duration">3-5 天</strong>
+        </p>
+      </div>
+    </section>
+
+    <div class="city-content">
+      <div class="container">
+        <section class="city-section">
+          <h2 data-i18n="cityDetail.overview">城市概览</h2>
+          <p class="city-intro" data-i18n="cityDetail.beijing.intro"></p>
+        </section>
+
+        <section class="city-section">
+          <div class="info-grid">
+            <div class="info-box">
+              <h3 data-i18n="cityDetail.bestTime">最佳旅行时间</h3>
+              <p data-i18n="cityDetail.beijing.bestTime"></p>
+            </div>
+            <div class="info-box">
+              <h3 data-i18n="cityDetail.transport">交通指南</h3>
+              <p data-i18n="cityDetail.beijing.transport"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="city-section">
+          <h2 data-i18n="cityDetail.attractions">必游景点</h2>
+          <div id="attractions-list" class="detail-cards"></div>
+        </section>
+
+        <section class="city-section">
+          <h2 data-i18n="cityDetail.food">特色美食</h2>
+          <div id="food-list" class="detail-cards"></div>
+        </section>
+
+        <section class="city-section">
+          <h2 data-i18n="cityDetail.moreCities">探索更多城市</h2>
+          <div id="more-cities" class="more-cities"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p data-i18n="footer.copyright">© 2026 探索中国</p>
+      <p data-i18n="footer.madeWith">用 ❤️ 为中国旅游而建</p>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js" data-base="../"></script>
+  <script src="../js/city.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

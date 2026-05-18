@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Discover China | Top Travel Cities Guide",
+    "description": "Explore China's most popular destinations: Beijing, Shanghai, Xi'an, Chengdu, Guilin, and Hangzhou."
+  },
+  "nav": {
+    "home": "Home",
+    "cities": "Cities",
+    "tips": "Travel Tips",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "Welcome to China",
+    "title": "Discover Millennia of Culture and Modern Wonders",
+    "subtitle": "From the Great Wall to the Bund, from the Terracotta Army to the Li River—explore China's most captivating cities on an unforgettable Eastern journey.",
+    "cta": "Explore Cities",
+    "ctaSecondary": "Travel Tips"
+  },
+  "cities": {
+    "sectionTitle": "Top Travel Cities",
+    "sectionSubtitle": "Six must-visit cities spanning history, nature, cuisine, and modern urban life",
+    "beijing": {
+      "name": "Beijing",
+      "tagline": "Imperial Capital · Cultural Heart",
+      "desc": "China's capital boasts UNESCO World Heritage sites including the Forbidden City, Temple of Heaven, and Summer Palace, plus the magnificent Great Wall. Hutong alleys blend old Beijing charm with modern vitality.",
+      "highlights": ["Forbidden City", "Great Wall", "Temple of Heaven", "Hutongs"]
+    },
+    "shanghai": {
+      "name": "Shanghai",
+      "tagline": "Pearl of the Orient · Global Metropolis",
+      "desc": "China's largest economic hub, where the Bund's colonial architecture faces Lujiazui's skyscrapers across the Huangpu River. Nanjing Road, Yu Garden, and Xintiandi showcase unique Haipai culture.",
+      "highlights": ["The Bund", "Yu Garden", "Disneyland", "Tianzifang"]
+    },
+    "xian": {
+      "name": "Xi'an",
+      "tagline": "Ancient Capital · Silk Road Gateway",
+      "desc": "A cradle of Chinese civilization, home to the Terracotta Army—often called the Eighth Wonder of the World. The city wall, Giant Wild Goose Pagoda, and Muslim Quarter span over two millennia of history.",
+      "highlights": ["Terracotta Army", "City Wall", "Wild Goose Pagoda", "Muslim Quarter"]
+    },
+    "chengdu": {
+      "name": "Chengdu",
+      "tagline": "Land of Abundance · Panda Homeland",
+      "desc": "Famous for its laid-back lifestyle and the Giant Panda Research Base. Hot pot, Sichuan cuisine, Kuanzhai Alley, and Jinli Ancient Street offer endless delights.",
+      "highlights": ["Panda Base", "Kuanzhai Alley", "Dujiangyan", "Hot Pot"]
+    },
+    "guilin": {
+      "name": "Guilin",
+      "tagline": "Finest Scenery Under Heaven",
+      "desc": "Karst peaks along the Li River create postcard-perfect landscapes. Yangshuo's West Street buzzes with international flair, while Longji Rice Terraces and Silver Cave showcase nature's artistry.",
+      "highlights": ["Li River", "Yangshuo", "Longji Terraces", "Elephant Trunk Hill"]
+    },
+    "hangzhou": {
+      "name": "Hangzhou",
+      "tagline": "Paradise on Earth · West Lake Gem",
+      "desc": "West Lake's Ten Scenes are legendary—Spring Dawn at Su Causeway, Melting Snow on Broken Bridge. Lingyin Temple, Longjing tea plantations, and the Southern Song Imperial Street enrich every visit.",
+      "highlights": ["West Lake", "Lingyin Temple", "Longjing Tea", "Song Dynasty Town"]
+    },
+    "learnMore": "Learn More"
+  },
+  "tips": {
+    "sectionTitle": "Travel Tips",
+    "sectionSubtitle": "Practical information for a smooth journey",
+    "visa": {
+      "title": "Visa Policy",
+      "desc": "Most nationalities require a visa in advance. Some cities offer 144-hour transit visa-free entry for citizens of 53 countries—check the latest policy before travel."
+    },
+    "payment": {
+      "title": "Mobile Payment",
+      "desc": "WeChat Pay and Alipay are ubiquitous. Link an international credit card beforehand, or exchange some cash at airports and hotels as backup."
+    },
+    "transport": {
+      "title": "High-Speed Rail",
+      "desc": "China's HSR network connects major cities efficiently. Book via 12306.cn or platforms like Trip.com and Fliggy—advance booking is recommended."
+    },
+    "season": {
+      "title": "Best Seasons",
+      "desc": "Spring (Mar–May) and autumn (Sep–Nov) offer pleasant weather for most cities. Summer requires sun protection; winter in the north is cold but offers snowy scenery."
+    }
+  },
+  "about": {
+    "sectionTitle": "About This Site",
+    "desc": "A static travel guide helping international visitors discover China's most popular cities. Content is for reference only—verify visa, transport, and attraction details before your trip.",
+    "disclaimer": "Images from Unsplash (https://unsplash.com), under the Unsplash License."
+  },
+  "footer": {
+    "copyright": "© 2026 Discover China · Static Travel Guide",
+    "madeWith": "Built with ❤️ for China travel"
+  },
+  "lang": {
+    "label": "Language"
+  }
+}

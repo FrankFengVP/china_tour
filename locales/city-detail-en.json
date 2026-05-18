@@ -1,0 +1,126 @@
+{
+  "cityDetail": {
+    "backHome": "Back to Home",
+    "overview": "Overview",
+    "attractions": "Must-See Attractions",
+    "food": "Local Cuisine",
+    "transport": "Getting Around",
+    "bestTime": "Best Time to Visit",
+    "duration": "Suggested Stay",
+    "moreCities": "Explore More Cities",
+    "beijing": {
+      "metaTitle": "Beijing Travel Guide | Discover China",
+      "metaDescription": "Complete guide to the Forbidden City, Great Wall, Temple of Heaven, hutongs, food, and transport.",
+      "intro": "Beijing is China's capital with over 3,000 years of history. As an ancient imperial city, it hosts UNESCO sites including the Forbidden City, Temple of Heaven, and Summer Palace, plus the magnificent Badaling Great Wall. Hutong alleys preserve old Beijing life, while Guomao and Sanlitun showcase modern energy.",
+      "bestTime": "Spring (Apr–May) and autumn (Sep–Oct) offer the most comfortable weather for the Great Wall and royal gardens. Winter brings snowy Forbidden City views—dress warmly.",
+      "transport": "Capital and Daxing airports connect globally. The subway covers major sights; get a transit card. Reach the Great Wall via tourist bus or private car.",
+      "duration": "3–5 days",
+      "attractions": [
+        { "name": "Forbidden City", "desc": "Ming and Qing imperial palace—the world's largest preserved wooden palace complex. Allow half to full day." },
+        { "name": "Badaling Great Wall", "desc": "The most iconic wall section, about 1.5 hours from downtown. Cable cars available." },
+        { "name": "Temple of Heaven", "desc": "Where emperors prayed for harvests. Hall of Prayer and Echo Wall are highlights—visit early morning." },
+        { "name": "Summer Palace", "desc": "China's largest royal garden—Kunming Lake and Longevity Hill make a perfect half-day trip." }
+      ],
+      "foods": [
+        { "name": "Peking Duck", "desc": "Crispy skin, tender meat. Quanjude and Bianyifang are legendary—book ahead." },
+        { "name": "Zhajiang Noodles", "desc": "Beijing's classic noodle dish with fermented bean sauce." },
+        { "name": "Douzhi & Jiaoquan", "desc": "A unique traditional breakfast—bold flavors worth trying once." }
+      ]
+    },
+    "shanghai": {
+      "metaTitle": "Shanghai Travel Guide | Discover China",
+      "metaDescription": "Guide to the Bund, Yu Garden, Lujiazui skyline, and Shanghai's Haipai culture.",
+      "intro": "Shanghai is China's largest economic hub and global metropolis. Colonial architecture on the Bund faces Lujiazui's skyscrapers across the Huangpu River. Shikumen lanes and Xintiandi preserve Haipai culture; Nanjing Road and Huaihai Road are shopping paradises.",
+      "bestTime": "Spring (Mar–May) and autumn (Sep–Nov) are ideal. Summers are hot and humid; winters are damp but festive.",
+      "transport": "Pudong and Hongqiao airports. Extensive metro network; maglev train to Pudong is an experience. Walk or ferry between Bund and Lujiazui.",
+      "duration": "2–4 days",
+      "attractions": [
+        { "name": "The Bund", "desc": "Iconic waterfront with colonial buildings—best at dusk and night." },
+        { "name": "Yu Garden", "desc": "Ming-era private garden plus City God Temple food street—try xiaolongbao here." },
+        { "name": "Lujiazui", "desc": "Oriental Pearl Tower and Shanghai Tower observation decks offer stunning views." },
+        { "name": "Tianzifang", "desc": "Shikumen lanes turned creative district with cafés, shops, and galleries." }
+      ],
+      "foods": [
+        { "name": "Xiaolongbao", "desc": "Soup dumplings—Nanxiang and Din Tai Fung are favorites." },
+        { "name": "Shengjianbao", "desc": "Pan-fried buns with crispy bottoms and juicy filling." },
+        { "name": "Benbang Cuisine", "desc": "Red-braised pork and oil-blasted shrimp—rich local flavors." }
+      ]
+    },
+    "xian": {
+      "metaTitle": "Xi'an Travel Guide | Discover China",
+      "metaDescription": "Terracotta Army, city wall, Giant Wild Goose Pagoda, and Muslim Quarter food guide.",
+      "intro": "Xi'an, ancient Chang'an, was capital of thirteen dynasties and the Silk Road's eastern terminus. Its city wall is China's best preserved. The Terracotta Army is the 'Eighth Wonder of the World.' Muslim Quarter food and Tang-era landmarks tell two millennia of history.",
+      "bestTime": "Spring (Mar–May) and autumn (Sep–Nov) are best. Summers are hot; winters are cold but less crowded.",
+      "transport": "Xianyang Airport is ~40 km from downtown. Metro covers main sights; walk or bike inside the wall. Tourist buses to the Terracotta Army.",
+      "duration": "2–4 days",
+      "attractions": [
+        { "name": "Terracotta Army", "desc": "Vast underground army museum—hire a guide or audio tour; allow 3–4 hours." },
+        { "name": "Xi'an City Wall", "desc": "China's most complete ancient wall—cycle or walk the perimeter; South Gate at night is beautiful." },
+        { "name": "Giant Wild Goose Pagoda", "desc": "Tang-era pagoda where Xuanzang translated sutras; north square fountain show is popular." },
+        { "name": "Muslim Quarter", "desc": "Food street paradise—yangrou paomo, roujiamo, and local sweets are must-tries." }
+      ],
+      "foods": [
+        { "name": "Yangrou Paomo", "desc": "Lamb soup with hand-torn bread—Lao Sunjia and Tongshengxiang are classics." },
+        { "name": "Roujiamo", "desc": "Chinese 'burger' with braised pork in crispy flatbread." },
+        { "name": "Biangbiang Noodles", "desc": "Wide belt-like noodles with bold, spicy sauce." }
+      ]
+    },
+    "chengdu": {
+      "metaTitle": "Chengdu Travel Guide | Discover China",
+      "metaDescription": "Giant pandas, Kuanzhai Alley, Dujiangyan, and Sichuan cuisine guide.",
+      "intro": "Chengdu, heart of the Land of Abundance, is famed for relaxed living, spicy food, and giant pandas. Kuanzhai Alley and Jinli preserve Sichuan architecture; Dujiangyan and Mount Qingcheng showcase ancient engineering. Tea houses, mahjong, and face-changing opera are local experiences.",
+      "bestTime": "Spring (Mar–Jun) and autumn (Sep–Nov) are comfortable. Summers are humid; winters are cloudy but heated indoors.",
+      "transport": "Shuangliu and Tianfu airports. Metro is convenient; visit the panda base early. High-speed rail to Dujiangyan in ~30 minutes.",
+      "duration": "2–4 days",
+      "attractions": [
+        { "name": "Giant Panda Base", "desc": "Visit early morning for feeding time; arrive before 8 AM and use shuttle buses inside." },
+        { "name": "Kuanzhai Alley", "desc": "Qing-era streets with teahouses, snacks, and creative shops." },
+        { "name": "Dujiangyan", "desc": "2,200-year-old irrigation system by Li Bing—UNESCO site, pair with Mount Qingcheng." },
+        { "name": "Jinli Ancient Street", "desc": "Replica old street with great night atmosphere, snacks, and Sichuan opera." }
+      ],
+      "foods": [
+        { "name": "Hot Pot", "desc": "Spicy and numbing—order yuanyang (half-half) if you're new to mala." },
+        { "name": "Dan Dan Noodles", "desc": "Sesame-rich noodles with chili oil and minced pork." },
+        { "name": "Fuqi Feipian", "desc": "Classic cold dish of sliced beef and offal in chili oil." }
+      ]
+    },
+    "guilin": {
+      "metaTitle": "Guilin Travel Guide | Discover China",
+      "metaDescription": "Li River cruise, Yangshuo, Longji Rice Terraces, and karst landscape guide.",
+      "intro": "Guilin's karst peaks along the Li River create China's most iconic landscapes. A river cruise to Yangshuo feels like floating through a painting. Longji Terraces glow golden in autumn; Elephant Trunk Hill and Two Rivers Four Lakes are city landmarks.",
+      "bestTime": "Apr–Oct is ideal; Sep–Oct for golden terraces. Spring mist on the Li River is poetic.",
+      "transport": "Guilin Liangjiang Airport. Buses or cruises to Yangshuo; charter or day tours to Longji Terraces.",
+      "duration": "2–4 days",
+      "attractions": [
+        { "name": "Li River Cruise", "desc": "Yangshuo section is most scenic—4–5 hours; book bamboo raft or cruise ahead." },
+        { "name": "Yangshuo West Street", "desc": "Blend of East and West with bars, restaurants, and guesthouses—lively at night." },
+        { "name": "Longji Rice Terraces", "desc": "Zhuang and Yao villages amid terraces—Jinkeng Dazhai has the best views; stay overnight." },
+        { "name": "Elephant Trunk Hill", "desc": "Guilin's symbol—a hill shaped like an elephant drinking from the river." }
+      ],
+      "foods": [
+        { "name": "Guilin Rice Noodles", "desc": "Slippery noodles in savory broth—local favorites abound." },
+        { "name": "Beer Fish", "desc": "Yangshuo specialty—fresh Li River fish cooked with beer." },
+        { "name": "Lipu Taro Pork", "desc": "Layers of taro and pork belly—soft, fragrant banquet dish." }
+      ]
+    },
+    "hangzhou": {
+      "metaTitle": "Hangzhou Travel Guide | Discover China",
+      "metaDescription": "West Lake, Lingyin Temple, Longjing tea, and Hangzhou cultural guide.",
+      "intro": "Hangzhou, praised as 'Paradise on Earth,' is defined by West Lake's Ten Scenes. Su Causeway, Broken Bridge, and Three Pools Mirroring the Moon each have unique charm. Lingyin Temple draws pilgrims; Longjing Village offers tea culture; Hefang Street recalls the Southern Song capital.",
+      "bestTime": "Spring (Mar–May) for blossoms, autumn (Sep–Nov) for osmanthus. Summer lotus blooms; winter snow on Broken Bridge is iconic.",
+      "transport": "Hangzhou Xiaoshan Airport. Metro reaches West Lake; cycle or boat around the lake; buses to Lingyin Temple.",
+      "duration": "2–3 days",
+      "attractions": [
+        { "name": "West Lake", "desc": "Cycle the lake, boat to Three Pools, climb Leifeng Pagoda for panoramas." },
+        { "name": "Lingyin Temple", "desc": "Ancient temple with Feilai Peak carvings—combine with Yongfu and Taoguang temples." },
+        { "name": "Longjing Village", "desc": "Taste pre-Qingming tea, pick leaves, hike Nine Creeks through misty hills." },
+        { "name": "Hefang Street", "desc": "Song Dynasty street with time-honored shops like Huqingyutang pharmacy." }
+      ],
+      "foods": [
+        { "name": "West Lake Vinegar Fish", "desc": "Sweet-and-sour grass fish—Lou Wai Lou is the classic restaurant." },
+        { "name": "Dongpo Pork", "desc": "Slow-braised pork belly—tender, rich, linked to poet Su Dongpo." },
+        { "name": "Longjing Shrimp", "desc": "Shrimp stir-fried with Longjing tea leaves—signature Hangzhou dish." }
+      ]
+    }
+  }
+}
