@@ -5,7 +5,7 @@
  * 3. Paste it below and deploy
  */
 (function () {
-  const GA_MEASUREMENT_ID = "G-MGM05MW5Z6";
+  const GA_MEASUREMENT_ID = "G-ME8ZFB1BX6";
 
   if (!GA_MEASUREMENT_ID || GA_MEASUREMENT_ID.includes("XXXX")) {
     return;
