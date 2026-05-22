@@ -31,6 +31,11 @@ for (const url of allUrls) {
   }
 }
 
+for (const [slug, imgs] of Object.entries(PROVINCE_CITY_IMAGES)) {
+  const keys = [imgs.hero, ...imgs.attractions, ...imgs.foods].map(imageKey);
+  if (new Set(keys).size !== 8) dupCities++;
+}
+
 console.log(
   `Cities: ${Object.keys(PROVINCE_CITY_IMAGES).length}, duplicate pages: ${dupCities}, URLs checked: ${allUrls.size}, failed: ${fail}`
 );
