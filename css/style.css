@@ -683,19 +683,6 @@ ul {
   align-content: flex-start;
 }
 
-.city-card-cta {
-  display: inline-block;
-  margin-top: auto;
-  padding-top: 12px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--color-primary);
-}
-
-.city-card-link:hover .city-card-cta {
-  text-decoration: underline;
-}
-
 .city-highlights li {
   padding: 4px 10px;
   font-size: 12px;
