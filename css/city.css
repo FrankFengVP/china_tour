@@ -172,19 +172,22 @@
   box-shadow: var(--shadow-md);
 }
 
-.detail-card--attraction .detail-card-image {
+.detail-card--attraction .detail-card-image,
+.detail-card--food .detail-card-image {
   aspect-ratio: 16 / 10;
   overflow: hidden;
 }
 
-.detail-card--attraction .detail-card-image img {
+.detail-card--attraction .detail-card-image img,
+.detail-card--food .detail-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.45s ease;
 }
 
-.detail-card--attraction:hover .detail-card-image img {
+.detail-card--attraction:hover .detail-card-image img,
+.detail-card--food:hover .detail-card-image img {
   transform: scale(1.05);
 }
 
@@ -205,12 +208,8 @@
   color: var(--color-text-muted);
 }
 
-.detail-card--food {
-  border-left: 3px solid var(--color-gold);
-}
-
 .detail-card--food .detail-card-body {
-  padding: 24px;
+  padding: 20px 24px 24px;
 }
 
 .more-cities {

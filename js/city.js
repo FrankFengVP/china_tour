@@ -17,6 +17,12 @@ const CityPage = (() => {
     return images?.[index] || "";
   }
 
+  function getFoodImage(translations, city, food, index) {
+    if (food.image) return food.image;
+    const images = translations?.foodImages?.[city];
+    return images?.[index] || "";
+  }
+
   function renderAttractions(data, city) {
     const container = document.getElementById("attractions-list");
     if (!container || !data?.attractions) return;
@@ -40,19 +46,26 @@ const CityPage = (() => {
       .join("");
   }
 
-  function renderFoods(data) {
+  function renderFoods(data, city) {
     const container = document.getElementById("food-list");
     if (!container || !data?.foods) return;
+    const translations = I18n.getTranslations();
+
     container.innerHTML = data.foods
-      .map(
-        (f) => `
+      .map((f, index) => {
+        const img = getFoodImage(translations, city, f, index);
+        const imageHtml = img
+          ? `<div class="detail-card-image"><img src="${img}" alt="${escapeHtml(f.name)}" loading="lazy"></div>`
+          : "";
+        return `
       <article class="detail-card detail-card--food">
+        ${imageHtml}
         <div class="detail-card-body">
           <h3>${escapeHtml(f.name)}</h3>
           <p>${escapeHtml(f.desc)}</p>
         </div>
-      </article>`
-      )
+      </article>`;
+      })
       .join("");
   }
 
@@ -77,7 +90,7 @@ const CityPage = (() => {
     if (durationEl && data.duration) durationEl.textContent = data.duration;
 
     renderAttractions(data, city);
-    renderFoods(data);
+    renderFoods(data, city);
     renderMoreCities(translations, city);
   }
 

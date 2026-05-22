@@ -20,17 +20,19 @@ const I18n = (() => {
 
   async function loadLocale(lang) {
     const base = getBasePath();
-    const [mainRes, detailRes, imagesRes] = await Promise.all([
+    const [mainRes, detailRes, attractionImagesRes, foodImagesRes] = await Promise.all([
       fetch(`${base}locales/${lang}.json`),
       fetch(`${base}locales/city-detail-${lang}.json`),
       fetch(`${base}locales/attraction-images.json`),
+      fetch(`${base}locales/food-images.json`),
     ]);
 
     if (!mainRes.ok) throw new Error(`Failed to load locale: ${lang}`);
     const main = await mainRes.json();
     const detail = detailRes.ok ? await detailRes.json() : {};
-    const images = imagesRes.ok ? await imagesRes.json() : {};
-    return { ...main, ...detail, ...images };
+    const attractionImages = attractionImagesRes.ok ? await attractionImagesRes.json() : {};
+    const foodImages = foodImagesRes.ok ? await foodImagesRes.json() : {};
+    return { ...main, ...detail, ...attractionImages, ...foodImages };
   }
 
   function applyTranslations() {
