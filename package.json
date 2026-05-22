@@ -5,6 +5,8 @@
   "scripts": {
     "start": "npx --yes serve . -p 3000",
     "generate:provinces": "node scripts/generate-province.mjs",
-    "apply:province-images": "node scripts/apply-province-images.mjs && node scripts/patch-city-heroes.mjs"
+    "apply:province-images": "node scripts/apply-province-images.mjs && node scripts/patch-city-heroes.mjs",
+    "sync:province-images": "node scripts/sync-province-images-from-names.mjs",
+    "verify:province-images": "node scripts/verify-province-images.mjs"
   }
 }
