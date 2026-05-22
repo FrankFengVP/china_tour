@@ -22,6 +22,15 @@
       <ul class="nav-links">
         <li><a href="#hero" data-i18n="nav.home">首页</a></li>
         <li><a href="#cities" data-i18n="nav.cities">热门城市</a></li>
+        <li class="nav-item nav-item--provinces">
+          <button type="button" class="nav-province-root-toggle" aria-expanded="false" aria-controls="nav-provinces-panel">
+            <span data-i18n="nav.provinces">热门省份</span>
+            <span class="nav-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="nav-provinces-panel" id="nav-provinces-panel" hidden>
+            <div id="nav-provinces-menu" class="nav-provinces-menu"></div>
+          </div>
+        </li>
         <li><a href="#tips" data-i18n="nav.tips">旅行贴士</a></li>
         <li><a href="#about" data-i18n="nav.about">关于</a></li>
       </ul>
@@ -210,6 +219,7 @@
   </footer>
 
   <script src="js/i18n.js"></script>
+  <script src="js/provinces.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

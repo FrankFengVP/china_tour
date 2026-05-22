@@ -1,0 +1,1004 @@
+{
+  "cityDetail": {
+    "kunming": {
+      "metaTitle": "Kunming Travel Guide | Discover China",
+      "metaDescription": "Stone Forest, Dianchi Lake, Green Lake, and Yunnan cuisine guide.",
+      "intro": "Known as the Spring City for its year-round mild weather, Kunming blends plateau lakes, karst landscapes, and ethnic diversity—an ideal start to western Yunnan.",
+      "bestTime": "Mar–May for flowers; Nov–Mar for black-headed gulls at Dianchi.",
+      "transport": "Changshui Airport serves international routes. Metro covers downtown; tour buses to Stone Forest.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Stone Forest",
+          "desc": "UNESCO karst pinnacle landscape; allow half a day."
+        },
+        {
+          "name": "Haigeng Dam",
+          "desc": "Best winter gull-watching on Dianchi; cycling available."
+        },
+        {
+          "name": "Green Lake Park",
+          "desc": "Central oasis with seasonal gulls and lotus."
+        },
+        {
+          "name": "Yunnan Nationalities Village",
+          "desc": "Architecture and performances of 25 ethnic groups."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Cross-Bridge Rice Noodles",
+          "desc": "Hot broth cooks raw ingredients at the table."
+        },
+        {
+          "name": "Steam Pot Chicken",
+          "desc": "Slow-steamed chicken in a special clay pot."
+        },
+        {
+          "name": "Wild Mushroom Hot Pot",
+          "desc": "Seasonal Jun–Sep; eat only well-cooked mushrooms."
+        }
+      ]
+    },
+    "dali": {
+      "metaTitle": "Dali Travel Guide | Discover China",
+      "metaDescription": "Erhai cycling, old town, Cangshan cableway, and Bai culture.",
+      "intro": "Dali pairs nineteen Cangshan peaks with Erhai Lake and distinctive Bai architecture. The old town, Xizhou, and Shuanglang each offer unique charm.",
+      "bestTime": "Mar–May and Sep–Nov ideal; Jun–Aug rainy but quieter.",
+      "transport": "Dali Airport and HSR station. Rent e-bikes to circle Erhai; old town is walkable.",
+      "duration": "2-4 days",
+      "attractions": [
+        {
+          "name": "Dali Old Town",
+          "desc": "South Gate, Foreigner Street—best at dusk."
+        },
+        {
+          "name": "Erhai Eco Corridor",
+          "desc": "Cycling with sunset at Longkan and Caicun piers."
+        },
+        {
+          "name": "Cangshan Cableway",
+          "desc": "Summit views; watch for altitude sickness."
+        },
+        {
+          "name": "Chongsheng Three Pagodas",
+          "desc": "Iconic 1,000-year-old towers."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Rubing (Milk Fan)",
+          "desc": "Grilled cheese with rose jam."
+        },
+        {
+          "name": "Sour-Spicy Fish",
+          "desc": "Erhai fish, a Bai classic."
+        },
+        {
+          "name": "Xizhou Baba",
+          "desc": "Charcoal flatbread in Xizhou."
+        }
+      ]
+    },
+    "lijiang": {
+      "metaTitle": "Lijiang Travel Guide | Discover China",
+      "metaDescription": "Guide to Lijiang: Lijiang Old Town, Jade Dragon Snow Mt., Shuhe, Blue Moon Valley.",
+      "intro": "Lijiang blends culture and scenery—Old Town Naxi Culture.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-4 days",
+      "attractions": [
+        {
+          "name": "Lijiang Old Town",
+          "desc": "Key sight in Lijiang; plan ahead."
+        },
+        {
+          "name": "Jade Dragon Snow Mt.",
+          "desc": "Key sight in Lijiang; plan ahead."
+        },
+        {
+          "name": "Shuhe",
+          "desc": "Key sight in Lijiang; plan ahead."
+        },
+        {
+          "name": "Blue Moon Valley",
+          "desc": "Key sight in Lijiang; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Lijiang."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Lijiang."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Lijiang."
+        }
+      ]
+    },
+    "jinghong": {
+      "metaTitle": "Jinghong Travel Guide | Discover China",
+      "metaDescription": "Guide to Jinghong: Botanical Garden, Wild Elephant Valley, Gaozhuang Night Market, Lancang River.",
+      "intro": "Jinghong blends culture and scenery—Rainforest Gateway.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Botanical Garden",
+          "desc": "Key sight in Jinghong; plan ahead."
+        },
+        {
+          "name": "Wild Elephant Valley",
+          "desc": "Key sight in Jinghong; plan ahead."
+        },
+        {
+          "name": "Gaozhuang Night Market",
+          "desc": "Key sight in Jinghong; plan ahead."
+        },
+        {
+          "name": "Lancang River",
+          "desc": "Key sight in Jinghong; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Jinghong."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Jinghong."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Jinghong."
+        }
+      ]
+    },
+    "shangrila": {
+      "metaTitle": "Shangri-La Travel Guide | Discover China",
+      "metaDescription": "Guide to Shangri-La: Songzanlin Temple, Potatso Park, Dukezong Old Town, Napa Lake.",
+      "intro": "Shangri-La blends culture and scenery—Plateau Shangri-La.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Songzanlin Temple",
+          "desc": "Key sight in Shangri-La; plan ahead."
+        },
+        {
+          "name": "Potatso Park",
+          "desc": "Key sight in Shangri-La; plan ahead."
+        },
+        {
+          "name": "Dukezong Old Town",
+          "desc": "Key sight in Shangri-La; plan ahead."
+        },
+        {
+          "name": "Napa Lake",
+          "desc": "Key sight in Shangri-La; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Shangri-La."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Shangri-La."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Shangri-La."
+        }
+      ]
+    },
+    "guangzhou": {
+      "metaTitle": "Guangzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Guangzhou: Chen Clan Hall, Shamian, Canton Tower, Beijing Road.",
+      "intro": "Guangzhou blends culture and scenery—Millennia Trading Hub.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-4 days",
+      "attractions": [
+        {
+          "name": "Chen Clan Hall",
+          "desc": "Key sight in Guangzhou; plan ahead."
+        },
+        {
+          "name": "Shamian",
+          "desc": "Key sight in Guangzhou; plan ahead."
+        },
+        {
+          "name": "Canton Tower",
+          "desc": "Key sight in Guangzhou; plan ahead."
+        },
+        {
+          "name": "Beijing Road",
+          "desc": "Key sight in Guangzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Guangzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Guangzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Guangzhou."
+        }
+      ]
+    },
+    "shenzhen": {
+      "metaTitle": "Shenzhen Travel Guide | Discover China",
+      "metaDescription": "Guide to Shenzhen: Ping An Finance Center, OCT, Dapeng Fortress, Shenzhen Bay.",
+      "intro": "Shenzhen blends culture and scenery—Innovation City.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Ping An Finance Center",
+          "desc": "Key sight in Shenzhen; plan ahead."
+        },
+        {
+          "name": "OCT",
+          "desc": "Key sight in Shenzhen; plan ahead."
+        },
+        {
+          "name": "Dapeng Fortress",
+          "desc": "Key sight in Shenzhen; plan ahead."
+        },
+        {
+          "name": "Shenzhen Bay",
+          "desc": "Key sight in Shenzhen; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Shenzhen."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Shenzhen."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Shenzhen."
+        }
+      ]
+    },
+    "zhuhai": {
+      "metaTitle": "Zhuhai Travel Guide | Discover China",
+      "metaDescription": "Guide to Zhuhai: Lovers' Road, Fisher Girl, Chimelong Ocean Kingdom, New Yuanming Palace.",
+      "intro": "Zhuhai blends culture and scenery—Romantic Coast.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Lovers' Road",
+          "desc": "Key sight in Zhuhai; plan ahead."
+        },
+        {
+          "name": "Fisher Girl",
+          "desc": "Key sight in Zhuhai; plan ahead."
+        },
+        {
+          "name": "Chimelong Ocean Kingdom",
+          "desc": "Key sight in Zhuhai; plan ahead."
+        },
+        {
+          "name": "New Yuanming Palace",
+          "desc": "Key sight in Zhuhai; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Zhuhai."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Zhuhai."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Zhuhai."
+        }
+      ]
+    },
+    "foshan": {
+      "metaTitle": "Foshan Travel Guide | Discover China",
+      "metaDescription": "Guide to Foshan: Ancestral Temple, Nanfeng Kiln, Qinghui Garden, Lingnan Tiandi.",
+      "intro": "Foshan blends culture and scenery—Lingnan Heritage.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Ancestral Temple",
+          "desc": "Key sight in Foshan; plan ahead."
+        },
+        {
+          "name": "Nanfeng Kiln",
+          "desc": "Key sight in Foshan; plan ahead."
+        },
+        {
+          "name": "Qinghui Garden",
+          "desc": "Key sight in Foshan; plan ahead."
+        },
+        {
+          "name": "Lingnan Tiandi",
+          "desc": "Key sight in Foshan; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Foshan."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Foshan."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Foshan."
+        }
+      ]
+    },
+    "shantou": {
+      "metaTitle": "Shantou Travel Guide | Discover China",
+      "metaDescription": "Guide to Shantou: Old Town Park, Nan'ao Island, Chen Cihong Mansion, Queshi Scenic Area.",
+      "intro": "Shantou blends culture and scenery—Chaoshan Cuisine Hub.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Old Town Park",
+          "desc": "Key sight in Shantou; plan ahead."
+        },
+        {
+          "name": "Nan'ao Island",
+          "desc": "Key sight in Shantou; plan ahead."
+        },
+        {
+          "name": "Chen Cihong Mansion",
+          "desc": "Key sight in Shantou; plan ahead."
+        },
+        {
+          "name": "Queshi Scenic Area",
+          "desc": "Key sight in Shantou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Shantou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Shantou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Shantou."
+        }
+      ]
+    },
+    "nanjing": {
+      "metaTitle": "Nanjing Travel Guide | Discover China",
+      "metaDescription": "Guide to Nanjing: Sun Yat-sen Mausoleum, Confucius Temple, City Wall, Presidential Palace.",
+      "intro": "Nanjing blends culture and scenery—Ancient Six-Dynasties Capital.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Sun Yat-sen Mausoleum",
+          "desc": "Key sight in Nanjing; plan ahead."
+        },
+        {
+          "name": "Confucius Temple",
+          "desc": "Key sight in Nanjing; plan ahead."
+        },
+        {
+          "name": "City Wall",
+          "desc": "Key sight in Nanjing; plan ahead."
+        },
+        {
+          "name": "Presidential Palace",
+          "desc": "Key sight in Nanjing; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Nanjing."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Nanjing."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Nanjing."
+        }
+      ]
+    },
+    "suzhou": {
+      "metaTitle": "Suzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Suzhou: Humble Admin's Garden, Tiger Hill, Pingjiang Road, Zhouzhuang.",
+      "intro": "Suzhou blends culture and scenery—City of Gardens.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Humble Admin's Garden",
+          "desc": "Key sight in Suzhou; plan ahead."
+        },
+        {
+          "name": "Tiger Hill",
+          "desc": "Key sight in Suzhou; plan ahead."
+        },
+        {
+          "name": "Pingjiang Road",
+          "desc": "Key sight in Suzhou; plan ahead."
+        },
+        {
+          "name": "Zhouzhuang",
+          "desc": "Key sight in Suzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Suzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Suzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Suzhou."
+        }
+      ]
+    },
+    "wuxi": {
+      "metaTitle": "Wuxi Travel Guide | Discover China",
+      "metaDescription": "Guide to Wuxi: Turtle Head Isle, Lingshan Buddha, Huishan Old Town, Nanchang Street.",
+      "intro": "Wuxi blends culture and scenery—Taihu Pearl.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Turtle Head Isle",
+          "desc": "Key sight in Wuxi; plan ahead."
+        },
+        {
+          "name": "Lingshan Buddha",
+          "desc": "Key sight in Wuxi; plan ahead."
+        },
+        {
+          "name": "Huishan Old Town",
+          "desc": "Key sight in Wuxi; plan ahead."
+        },
+        {
+          "name": "Nanchang Street",
+          "desc": "Key sight in Wuxi; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Wuxi."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Wuxi."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Wuxi."
+        }
+      ]
+    },
+    "yangzhou": {
+      "metaTitle": "Yangzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Yangzhou: Slender West Lake, Ge Garden, Dongguan Street, Daming Temple.",
+      "intro": "Yangzhou blends culture and scenery—Huaiyang Cuisine.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Slender West Lake",
+          "desc": "Key sight in Yangzhou; plan ahead."
+        },
+        {
+          "name": "Ge Garden",
+          "desc": "Key sight in Yangzhou; plan ahead."
+        },
+        {
+          "name": "Dongguan Street",
+          "desc": "Key sight in Yangzhou; plan ahead."
+        },
+        {
+          "name": "Daming Temple",
+          "desc": "Key sight in Yangzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Yangzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Yangzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Yangzhou."
+        }
+      ]
+    },
+    "changzhou": {
+      "metaTitle": "Changzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Changzhou: Dinosaur Park, Tianning Temple, Yancheng Park, Qingguo Alley.",
+      "intro": "Changzhou blends culture and scenery—Dinosaurs & Canal.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Dinosaur Park",
+          "desc": "Key sight in Changzhou; plan ahead."
+        },
+        {
+          "name": "Tianning Temple",
+          "desc": "Key sight in Changzhou; plan ahead."
+        },
+        {
+          "name": "Yancheng Park",
+          "desc": "Key sight in Changzhou; plan ahead."
+        },
+        {
+          "name": "Qingguo Alley",
+          "desc": "Key sight in Changzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Changzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Changzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Changzhou."
+        }
+      ]
+    },
+    "qingdao": {
+      "metaTitle": "Qingdao Travel Guide | Discover China",
+      "metaDescription": "Guide to Qingdao: Zhanqiao Pier, Badaguan, Laoshan, Golden Beach.",
+      "intro": "Qingdao blends culture and scenery—Beer & Red-Tile Coast.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Zhanqiao Pier",
+          "desc": "Key sight in Qingdao; plan ahead."
+        },
+        {
+          "name": "Badaguan",
+          "desc": "Key sight in Qingdao; plan ahead."
+        },
+        {
+          "name": "Laoshan",
+          "desc": "Key sight in Qingdao; plan ahead."
+        },
+        {
+          "name": "Golden Beach",
+          "desc": "Key sight in Qingdao; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Qingdao."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Qingdao."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Qingdao."
+        }
+      ]
+    },
+    "jinan": {
+      "metaTitle": "Jinan Travel Guide | Discover China",
+      "metaDescription": "Guide to Jinan: Baotu Spring, Daming Lake, Thousand Buddha Hill, Furong Street.",
+      "intro": "Jinan blends culture and scenery—City of Springs.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Baotu Spring",
+          "desc": "Key sight in Jinan; plan ahead."
+        },
+        {
+          "name": "Daming Lake",
+          "desc": "Key sight in Jinan; plan ahead."
+        },
+        {
+          "name": "Thousand Buddha Hill",
+          "desc": "Key sight in Jinan; plan ahead."
+        },
+        {
+          "name": "Furong Street",
+          "desc": "Key sight in Jinan; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Jinan."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Jinan."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Jinan."
+        }
+      ]
+    },
+    "yantai": {
+      "metaTitle": "Yantai Travel Guide | Discover China",
+      "metaDescription": "Guide to Yantai: Penglai Pavilion, Yangma Island, Yantai Hill, Golden Beach.",
+      "intro": "Yantai blends culture and scenery—Fairyland Coast.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Penglai Pavilion",
+          "desc": "Key sight in Yantai; plan ahead."
+        },
+        {
+          "name": "Yangma Island",
+          "desc": "Key sight in Yantai; plan ahead."
+        },
+        {
+          "name": "Yantai Hill",
+          "desc": "Key sight in Yantai; plan ahead."
+        },
+        {
+          "name": "Golden Beach",
+          "desc": "Key sight in Yantai; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Yantai."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Yantai."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Yantai."
+        }
+      ]
+    },
+    "weihai": {
+      "metaTitle": "Weihai Travel Guide | Discover China",
+      "metaDescription": "Guide to Weihai: Liugong Island, Chengshantou, International Beach, Coastal Road.",
+      "intro": "Weihai blends culture and scenery—Cleanest Seaside.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Liugong Island",
+          "desc": "Key sight in Weihai; plan ahead."
+        },
+        {
+          "name": "Chengshantou",
+          "desc": "Key sight in Weihai; plan ahead."
+        },
+        {
+          "name": "International Beach",
+          "desc": "Key sight in Weihai; plan ahead."
+        },
+        {
+          "name": "Coastal Road",
+          "desc": "Key sight in Weihai; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Weihai."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Weihai."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Weihai."
+        }
+      ]
+    },
+    "qufu": {
+      "metaTitle": "Qufu Travel Guide | Discover China",
+      "metaDescription": "Guide to Qufu: Confucius Temple, Kong Mansion, Confucius Forest, Nishan Sacred Land.",
+      "intro": "Qufu blends culture and scenery—Confucius Hometown.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1 day",
+      "attractions": [
+        {
+          "name": "Confucius Temple",
+          "desc": "Key sight in Qufu; plan ahead."
+        },
+        {
+          "name": "Kong Mansion",
+          "desc": "Key sight in Qufu; plan ahead."
+        },
+        {
+          "name": "Confucius Forest",
+          "desc": "Key sight in Qufu; plan ahead."
+        },
+        {
+          "name": "Nishan Sacred Land",
+          "desc": "Key sight in Qufu; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Qufu."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Qufu."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Qufu."
+        }
+      ]
+    },
+    "xiamen": {
+      "metaTitle": "Xiamen Travel Guide | Discover China",
+      "metaDescription": "Guide to Xiamen: Gulangyu Island, XMU, Island Ring Road, Zengcuo'an.",
+      "intro": "Xiamen blends culture and scenery—Garden on the Sea.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Gulangyu Island",
+          "desc": "Key sight in Xiamen; plan ahead."
+        },
+        {
+          "name": "XMU",
+          "desc": "Key sight in Xiamen; plan ahead."
+        },
+        {
+          "name": "Island Ring Road",
+          "desc": "Key sight in Xiamen; plan ahead."
+        },
+        {
+          "name": "Zengcuo'an",
+          "desc": "Key sight in Xiamen; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Xiamen."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Xiamen."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Xiamen."
+        }
+      ]
+    },
+    "fuzhou": {
+      "metaTitle": "Fuzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Fuzhou: Three Lanes Seven Alleys, Gushan, West Lake Park, Pingtan Island.",
+      "intro": "Fuzhou blends culture and scenery—Hot Spring Banyan City.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "1-2 days",
+      "attractions": [
+        {
+          "name": "Three Lanes Seven Alleys",
+          "desc": "Key sight in Fuzhou; plan ahead."
+        },
+        {
+          "name": "Gushan",
+          "desc": "Key sight in Fuzhou; plan ahead."
+        },
+        {
+          "name": "West Lake Park",
+          "desc": "Key sight in Fuzhou; plan ahead."
+        },
+        {
+          "name": "Pingtan Island",
+          "desc": "Key sight in Fuzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Fuzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Fuzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Fuzhou."
+        }
+      ]
+    },
+    "quanzhou": {
+      "metaTitle": "Quanzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Quanzhou: Kaiyuan Temple, West Street, Qingyuan Mountain, Chongwu Ancient City.",
+      "intro": "Quanzhou blends culture and scenery—UNESCO Maritime Heritage.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2 days",
+      "attractions": [
+        {
+          "name": "Kaiyuan Temple",
+          "desc": "Key sight in Quanzhou; plan ahead."
+        },
+        {
+          "name": "West Street",
+          "desc": "Key sight in Quanzhou; plan ahead."
+        },
+        {
+          "name": "Qingyuan Mountain",
+          "desc": "Key sight in Quanzhou; plan ahead."
+        },
+        {
+          "name": "Chongwu Ancient City",
+          "desc": "Key sight in Quanzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Quanzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Quanzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Quanzhou."
+        }
+      ]
+    },
+    "wuyishan": {
+      "metaTitle": "Wuyishan Travel Guide | Discover China",
+      "metaDescription": "Guide to Wuyishan: Nine-Bend Bamboo Raft, Tianyou Peak, Da Hong Pao, Wuyi Palace.",
+      "intro": "Wuyishan blends culture and scenery—Danxia Tea Culture.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2-3 days",
+      "attractions": [
+        {
+          "name": "Nine-Bend Bamboo Raft",
+          "desc": "Key sight in Wuyishan; plan ahead."
+        },
+        {
+          "name": "Tianyou Peak",
+          "desc": "Key sight in Wuyishan; plan ahead."
+        },
+        {
+          "name": "Da Hong Pao",
+          "desc": "Key sight in Wuyishan; plan ahead."
+        },
+        {
+          "name": "Wuyi Palace",
+          "desc": "Key sight in Wuyishan; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Wuyishan."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Wuyishan."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Wuyishan."
+        }
+      ]
+    },
+    "zhangzhou": {
+      "metaTitle": "Zhangzhou Travel Guide | Discover China",
+      "metaDescription": "Guide to Zhangzhou: Nanjing Tulou, Yunshuiyao, Zhangzhou Old Town, Volcano Island.",
+      "intro": "Zhangzhou blends culture and scenery—Tulou & Fruit Land.",
+      "bestTime": "Spring and autumn are ideal.",
+      "transport": "HSR and airports; metro and buses in town.",
+      "duration": "2 days",
+      "attractions": [
+        {
+          "name": "Nanjing Tulou",
+          "desc": "Key sight in Zhangzhou; plan ahead."
+        },
+        {
+          "name": "Yunshuiyao",
+          "desc": "Key sight in Zhangzhou; plan ahead."
+        },
+        {
+          "name": "Zhangzhou Old Town",
+          "desc": "Key sight in Zhangzhou; plan ahead."
+        },
+        {
+          "name": "Volcano Island",
+          "desc": "Key sight in Zhangzhou; plan ahead."
+        }
+      ],
+      "foods": [
+        {
+          "name": "Local snack",
+          "desc": "Must-try in Zhangzhou."
+        },
+        {
+          "name": "Signature dish",
+          "desc": "Must-try in Zhangzhou."
+        },
+        {
+          "name": "Classic cuisine",
+          "desc": "Must-try in Zhangzhou."
+        }
+      ]
+    }
+  }
+}

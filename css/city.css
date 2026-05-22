@@ -233,6 +233,16 @@
   color: #fff;
 }
 
+.more-city-link--muted {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--color-text-muted);
+}
+
+.more-city-link--muted:hover {
+  background: var(--color-gold);
+  color: var(--color-text);
+}
+
 .cities-grid .city-card-link {
   display: block;
   color: inherit;

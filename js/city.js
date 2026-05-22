@@ -1,5 +1,13 @@
 const CityPage = (() => {
-  const CITIES = ["beijing", "shanghai", "xian", "chengdu", "guilin", "hangzhou"];
+  const FEATURED_CITIES = ["beijing", "shanghai", "xian", "chengdu", "guilin", "hangzhou"];
+
+  const PROVINCE_CITIES_MAP = {
+    yunnan: ["kunming", "dali", "lijiang", "jinghong", "shangrila"],
+    guangdong: ["guangzhou", "shenzhen", "zhuhai", "foshan", "shantou"],
+    jiangsu: ["nanjing", "suzhou", "wuxi", "yangzhou", "changzhou"],
+    shandong: ["qingdao", "jinan", "yantai", "weihai", "qufu"],
+    fujian: ["xiamen", "fuzhou", "quanzhou", "wuyishan", "zhangzhou"],
+  };
 
   function escapeHtml(text) {
     const el = document.createElement("div");
@@ -72,13 +80,28 @@ const CityPage = (() => {
   function renderMoreCities(translations, currentCity) {
     const container = document.getElementById("more-cities");
     if (!container) return;
-    const others = CITIES.filter((c) => c !== currentCity);
-    container.innerHTML = others
-      .map((c) => {
+
+    const isProvinceCity = document.body.dataset.provinceCity === "true";
+    let links = [];
+
+    if (isProvinceCity) {
+      const cityToProvince = translations?.cityToProvince || {};
+      const province = cityToProvince[currentCity];
+      const provinceCities = translations?.provinceCities?.[province] || PROVINCE_CITIES_MAP[province] || [];
+      links = provinceCities
+        .filter((c) => c !== currentCity)
+        .map((c) => {
+          const name = translations?.cities?.[c]?.name || c;
+          return `<a href="${c}.html" class="more-city-link">${escapeHtml(name)}</a>`;
+        });
+    } else {
+      links = FEATURED_CITIES.filter((c) => c !== currentCity).map((c) => {
         const name = translations?.cities?.[c]?.name || c;
         return `<a href="${c}.html" class="more-city-link">${escapeHtml(name)}</a>`;
-      })
-      .join("");
+      });
+    }
+
+    container.innerHTML = links.join("");
   }
 
   function render(city) {
@@ -102,5 +125,5 @@ const CityPage = (() => {
     render(city);
   }
 
-  return { init, render };
+  return { init, render, FEATURED_CITIES, PROVINCE_CITIES_MAP };
 })();

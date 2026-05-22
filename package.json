@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "npx --yes serve . -p 3000"
+    "start": "npx --yes serve . -p 3000",
+    "generate:provinces": "node scripts/generate-province.mjs",
+    "apply:province-images": "node scripts/apply-province-images.mjs && node scripts/patch-city-heroes.mjs"
   }
 }

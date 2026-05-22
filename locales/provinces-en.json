@@ -1,0 +1,304 @@
+{
+  "provinces": {
+    "sectionTitle": "Popular Provinces",
+    "sectionSubtitle": "Five provinces, five must-see cities each—explore China by region",
+    "yunnan": {
+      "name": "Yunnan",
+      "desc": "Snow peaks, ancient towns, tropical rainforests, and diverse ethnic cultures."
+    },
+    "guangdong": {
+      "name": "Guangdong",
+      "desc": "Cantonese cuisine, modern cities, islands, and diaspora heritage."
+    },
+    "jiangsu": {
+      "name": "Jiangsu",
+      "desc": "Classical gardens, water towns, and storied historical cities."
+    },
+    "shandong": {
+      "name": "Shandong",
+      "desc": "Home of Confucius, coastal scenery, beer, and seafood."
+    },
+    "fujian": {
+      "name": "Fujian",
+      "desc": "Maritime Silk Road legacy, tulou, tea culture, and seaside escapes."
+    }
+  },
+  "cities": {
+    "learnMore": "Learn More",
+    "kunming": {
+      "name": "Kunming",
+      "tagline": "Spring City · Flower Capital",
+      "desc": "Yunnan's mild-climate capital and gateway to Dali and Lijiang, famed for Stone Forest and Dianchi Lake.",
+      "highlights": [
+        "Stone Forest",
+        "Dianchi Lake",
+        "Green Lake",
+        "Jinma Archway"
+      ]
+    },
+    "dali": {
+      "name": "Dali",
+      "tagline": "Wind, Flower, Snow, Moon",
+      "desc": "Bai ancient town between Cangshan and Erhai—slow living and lake views.",
+      "highlights": [
+        "Erhai Lake",
+        "Old Town",
+        "Cangshan",
+        "Three Pagodas"
+      ]
+    },
+    "lijiang": {
+      "name": "Lijiang",
+      "tagline": "Old Town Naxi Culture",
+      "desc": "Lijiang is a top destination known for Lijiang Old Town, Jade Dragon Snow Mt., Shuhe, Blue Moon Valley.",
+      "highlights": [
+        "Lijiang Old Town",
+        "Jade Dragon Snow Mt.",
+        "Shuhe",
+        "Blue Moon Valley"
+      ]
+    },
+    "jinghong": {
+      "name": "Jinghong",
+      "tagline": "Rainforest Gateway",
+      "desc": "Jinghong is a top destination known for Botanical Garden, Wild Elephant Valley, Gaozhuang Night Market, Lancang River.",
+      "highlights": [
+        "Botanical Garden",
+        "Wild Elephant Valley",
+        "Gaozhuang Night Market",
+        "Lancang River"
+      ]
+    },
+    "shangrila": {
+      "name": "Shangri-La",
+      "tagline": "Plateau Shangri-La",
+      "desc": "Shangri-La is a top destination known for Songzanlin Temple, Potatso Park, Dukezong Old Town, Napa Lake.",
+      "highlights": [
+        "Songzanlin Temple",
+        "Potatso Park",
+        "Dukezong Old Town",
+        "Napa Lake"
+      ]
+    },
+    "guangzhou": {
+      "name": "Guangzhou",
+      "tagline": "Millennia Trading Hub",
+      "desc": "Guangzhou is a top destination known for Chen Clan Hall, Shamian, Canton Tower, Beijing Road.",
+      "highlights": [
+        "Chen Clan Hall",
+        "Shamian",
+        "Canton Tower",
+        "Beijing Road"
+      ]
+    },
+    "shenzhen": {
+      "name": "Shenzhen",
+      "tagline": "Innovation City",
+      "desc": "Shenzhen is a top destination known for Ping An Finance Center, OCT, Dapeng Fortress, Shenzhen Bay.",
+      "highlights": [
+        "Ping An Finance Center",
+        "OCT",
+        "Dapeng Fortress",
+        "Shenzhen Bay"
+      ]
+    },
+    "zhuhai": {
+      "name": "Zhuhai",
+      "tagline": "Romantic Coast",
+      "desc": "Zhuhai is a top destination known for Lovers' Road, Fisher Girl, Chimelong Ocean Kingdom, New Yuanming Palace.",
+      "highlights": [
+        "Lovers' Road",
+        "Fisher Girl",
+        "Chimelong Ocean Kingdom",
+        "New Yuanming Palace"
+      ]
+    },
+    "foshan": {
+      "name": "Foshan",
+      "tagline": "Lingnan Heritage",
+      "desc": "Foshan is a top destination known for Ancestral Temple, Nanfeng Kiln, Qinghui Garden, Lingnan Tiandi.",
+      "highlights": [
+        "Ancestral Temple",
+        "Nanfeng Kiln",
+        "Qinghui Garden",
+        "Lingnan Tiandi"
+      ]
+    },
+    "shantou": {
+      "name": "Shantou",
+      "tagline": "Chaoshan Cuisine Hub",
+      "desc": "Shantou is a top destination known for Old Town Park, Nan'ao Island, Chen Cihong Mansion, Queshi Scenic Area.",
+      "highlights": [
+        "Old Town Park",
+        "Nan'ao Island",
+        "Chen Cihong Mansion",
+        "Queshi Scenic Area"
+      ]
+    },
+    "nanjing": {
+      "name": "Nanjing",
+      "tagline": "Ancient Six-Dynasties Capital",
+      "desc": "Nanjing is a top destination known for Sun Yat-sen Mausoleum, Confucius Temple, City Wall, Presidential Palace.",
+      "highlights": [
+        "Sun Yat-sen Mausoleum",
+        "Confucius Temple",
+        "City Wall",
+        "Presidential Palace"
+      ]
+    },
+    "suzhou": {
+      "name": "Suzhou",
+      "tagline": "City of Gardens",
+      "desc": "Suzhou is a top destination known for Humble Admin's Garden, Tiger Hill, Pingjiang Road, Zhouzhuang.",
+      "highlights": [
+        "Humble Admin's Garden",
+        "Tiger Hill",
+        "Pingjiang Road",
+        "Zhouzhuang"
+      ]
+    },
+    "wuxi": {
+      "name": "Wuxi",
+      "tagline": "Taihu Pearl",
+      "desc": "Wuxi is a top destination known for Turtle Head Isle, Lingshan Buddha, Huishan Old Town, Nanchang Street.",
+      "highlights": [
+        "Turtle Head Isle",
+        "Lingshan Buddha",
+        "Huishan Old Town",
+        "Nanchang Street"
+      ]
+    },
+    "yangzhou": {
+      "name": "Yangzhou",
+      "tagline": "Huaiyang Cuisine",
+      "desc": "Yangzhou is a top destination known for Slender West Lake, Ge Garden, Dongguan Street, Daming Temple.",
+      "highlights": [
+        "Slender West Lake",
+        "Ge Garden",
+        "Dongguan Street",
+        "Daming Temple"
+      ]
+    },
+    "changzhou": {
+      "name": "Changzhou",
+      "tagline": "Dinosaurs & Canal",
+      "desc": "Changzhou is a top destination known for Dinosaur Park, Tianning Temple, Yancheng Park, Qingguo Alley.",
+      "highlights": [
+        "Dinosaur Park",
+        "Tianning Temple",
+        "Yancheng Park",
+        "Qingguo Alley"
+      ]
+    },
+    "qingdao": {
+      "name": "Qingdao",
+      "tagline": "Beer & Red-Tile Coast",
+      "desc": "Qingdao is a top destination known for Zhanqiao Pier, Badaguan, Laoshan, Golden Beach.",
+      "highlights": [
+        "Zhanqiao Pier",
+        "Badaguan",
+        "Laoshan",
+        "Golden Beach"
+      ]
+    },
+    "jinan": {
+      "name": "Jinan",
+      "tagline": "City of Springs",
+      "desc": "Jinan is a top destination known for Baotu Spring, Daming Lake, Thousand Buddha Hill, Furong Street.",
+      "highlights": [
+        "Baotu Spring",
+        "Daming Lake",
+        "Thousand Buddha Hill",
+        "Furong Street"
+      ]
+    },
+    "yantai": {
+      "name": "Yantai",
+      "tagline": "Fairyland Coast",
+      "desc": "Yantai is a top destination known for Penglai Pavilion, Yangma Island, Yantai Hill, Golden Beach.",
+      "highlights": [
+        "Penglai Pavilion",
+        "Yangma Island",
+        "Yantai Hill",
+        "Golden Beach"
+      ]
+    },
+    "weihai": {
+      "name": "Weihai",
+      "tagline": "Cleanest Seaside",
+      "desc": "Weihai is a top destination known for Liugong Island, Chengshantou, International Beach, Coastal Road.",
+      "highlights": [
+        "Liugong Island",
+        "Chengshantou",
+        "International Beach",
+        "Coastal Road"
+      ]
+    },
+    "qufu": {
+      "name": "Qufu",
+      "tagline": "Confucius Hometown",
+      "desc": "Qufu is a top destination known for Confucius Temple, Kong Mansion, Confucius Forest, Nishan Sacred Land.",
+      "highlights": [
+        "Confucius Temple",
+        "Kong Mansion",
+        "Confucius Forest",
+        "Nishan Sacred Land"
+      ]
+    },
+    "xiamen": {
+      "name": "Xiamen",
+      "tagline": "Garden on the Sea",
+      "desc": "Xiamen is a top destination known for Gulangyu Island, XMU, Island Ring Road, Zengcuo'an.",
+      "highlights": [
+        "Gulangyu Island",
+        "XMU",
+        "Island Ring Road",
+        "Zengcuo'an"
+      ]
+    },
+    "fuzhou": {
+      "name": "Fuzhou",
+      "tagline": "Hot Spring Banyan City",
+      "desc": "Fuzhou is a top destination known for Three Lanes Seven Alleys, Gushan, West Lake Park, Pingtan Island.",
+      "highlights": [
+        "Three Lanes Seven Alleys",
+        "Gushan",
+        "West Lake Park",
+        "Pingtan Island"
+      ]
+    },
+    "quanzhou": {
+      "name": "Quanzhou",
+      "tagline": "UNESCO Maritime Heritage",
+      "desc": "Quanzhou is a top destination known for Kaiyuan Temple, West Street, Qingyuan Mountain, Chongwu Ancient City.",
+      "highlights": [
+        "Kaiyuan Temple",
+        "West Street",
+        "Qingyuan Mountain",
+        "Chongwu Ancient City"
+      ]
+    },
+    "wuyishan": {
+      "name": "Wuyishan",
+      "tagline": "Danxia Tea Culture",
+      "desc": "Wuyishan is a top destination known for Nine-Bend Bamboo Raft, Tianyou Peak, Da Hong Pao, Wuyi Palace.",
+      "highlights": [
+        "Nine-Bend Bamboo Raft",
+        "Tianyou Peak",
+        "Da Hong Pao",
+        "Wuyi Palace"
+      ]
+    },
+    "zhangzhou": {
+      "name": "Zhangzhou",
+      "tagline": "Tulou & Fruit Land",
+      "desc": "Zhangzhou is a top destination known for Nanjing Tulou, Yunshuiyao, Zhangzhou Old Town, Volcano Island.",
+      "highlights": [
+        "Nanjing Tulou",
+        "Yunshuiyao",
+        "Zhangzhou Old Town",
+        "Volcano Island"
+      ]
+    }
+  }
+}

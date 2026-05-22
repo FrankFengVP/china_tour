@@ -20,9 +20,20 @@ const I18n = (() => {
 
   async function loadLocale(lang) {
     const base = getBasePath();
-    const [mainRes, detailRes, attractionImagesRes, foodImagesRes] = await Promise.all([
+    const [
+      mainRes,
+      detailRes,
+      provincesRes,
+      provinceDetailRes,
+      metaRes,
+      attractionImagesRes,
+      foodImagesRes,
+    ] = await Promise.all([
       fetch(`${base}locales/${lang}.json`),
       fetch(`${base}locales/city-detail-${lang}.json`),
+      fetch(`${base}locales/provinces-${lang}.json`),
+      fetch(`${base}locales/city-detail-provinces-${lang}.json`),
+      fetch(`${base}locales/provinces-meta.json`),
       fetch(`${base}locales/attraction-images.json`),
       fetch(`${base}locales/food-images.json`),
     ]);
@@ -30,9 +41,25 @@ const I18n = (() => {
     if (!mainRes.ok) throw new Error(`Failed to load locale: ${lang}`);
     const main = await mainRes.json();
     const detail = detailRes.ok ? await detailRes.json() : {};
+    const provinces = provincesRes.ok ? await provincesRes.json() : {};
+    const provinceDetail = provinceDetailRes.ok ? await provinceDetailRes.json() : {};
+    const meta = metaRes.ok ? await metaRes.json() : {};
     const attractionImages = attractionImagesRes.ok ? await attractionImagesRes.json() : {};
     const foodImages = foodImagesRes.ok ? await foodImagesRes.json() : {};
-    return { ...main, ...detail, ...attractionImages, ...foodImages };
+
+    return {
+      ...main,
+      ...detail,
+      ...meta,
+      ...attractionImages,
+      ...foodImages,
+      provinces: provinces.provinces || {},
+      cities: { ...main.cities, ...(provinces.cities || {}) },
+      cityDetail: {
+        ...(detail.cityDetail || {}),
+        ...(provinceDetail.cityDetail || {}),
+      },
+    };
   }
 
   function applyTranslations() {
@@ -81,6 +108,10 @@ const I18n = (() => {
     if (city && typeof CityPage !== "undefined") {
       CityPage.render(city);
     }
+
+    if (typeof NavProvinces !== "undefined") {
+      NavProvinces.render();
+    }
   }
 
   async function setLanguage(lang) {
@@ -110,6 +141,10 @@ const I18n = (() => {
 
     if (document.body.dataset.city && typeof CityPage !== "undefined") {
       CityPage.init();
+    }
+
+    if (document.getElementById("nav-provinces-menu") && typeof NavProvinces !== "undefined") {
+      NavProvinces.init();
     }
   }
 

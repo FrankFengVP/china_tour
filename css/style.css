@@ -155,6 +155,161 @@ ul {
   color: var(--color-primary);
 }
 
+.nav-links > li {
+  position: relative;
+}
+
+.nav-item--provinces {
+  list-style: none;
+}
+
+.nav-province-root-toggle,
+.nav-province-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 0;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: color var(--transition);
+}
+
+.nav-province-root-toggle:hover,
+.nav-province-toggle:hover {
+  color: var(--color-primary);
+}
+
+.nav-province-root-toggle[aria-expanded="true"],
+.nav-province-toggle[aria-expanded="true"] {
+  color: var(--color-primary);
+}
+
+.nav-chevron {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform var(--transition);
+  flex-shrink: 0;
+  margin-top: -3px;
+}
+
+.nav-province-root-toggle[aria-expanded="true"] .nav-chevron,
+.nav-province-toggle[aria-expanded="true"] .nav-chevron {
+  transform: rotate(-135deg);
+  margin-top: 3px;
+}
+
+.nav-provinces-panel {
+  z-index: 200;
+}
+
+.nav-provinces-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.nav-province-group {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.nav-province-toggle {
+  padding: 10px 12px;
+  background: var(--color-bg-alt);
+}
+
+.nav-province-cities {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 8px;
+  background: var(--color-surface);
+}
+
+.nav-province-cities li a {
+  display: block;
+  padding: 8px 12px 8px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  transition: color var(--transition), background var(--transition);
+}
+
+.nav-province-cities li a:hover {
+  color: var(--color-primary);
+  background: rgba(196, 30, 58, 0.06);
+}
+
+@media (min-width: 768px) {
+  .nav-item--provinces {
+    position: relative;
+  }
+
+  .nav-province-root-toggle {
+    width: auto;
+  }
+
+  .nav-provinces-panel {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 220px;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 8px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .nav-provinces-panel::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: var(--color-surface);
+    border-left: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border);
+    transform: translateX(-50%) rotate(45deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item--provinces {
+    width: 100%;
+  }
+
+  .nav-province-root-toggle {
+    padding: 4px 0;
+  }
+
+  .nav-provinces-panel {
+    margin-top: 8px;
+    padding: 8px;
+    background: var(--color-bg-alt);
+    border-radius: var(--radius);
+  }
+
+  .nav-province-toggle {
+    border-radius: 6px;
+  }
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
